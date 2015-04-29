@@ -3,10 +3,7 @@ import os
 
 path = '/Users/rrezaii/Documents/MyProjects/FlashFusion/FlashFusion'
 
-fileList =[]
-for filename in os.listdir(path):
-	#print filename
-	fileList.append(filename) 
+fileList = os.listdir(path);
 
 print fileList
 
